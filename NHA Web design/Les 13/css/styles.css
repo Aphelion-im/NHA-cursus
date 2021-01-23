@@ -1,0 +1,66 @@
+/* Kleuren met Paletton: http://www.paletton.com/#uid=53P0M0ki4v0kPLVjHCcenshe8lv */
+
+body {
+    color: #fff;
+    font-family: Calibri, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h1, h3 {
+    text-align: center;
+    margin: 0;
+}
+
+
+header {
+    height: 20vh;
+    background-color: #5C79D8;
+    line-height: 20vh;
+}
+
+nav {
+    background-color: #9B55D8;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 75vh;
+    padding: 10px 15px;
+    width: 15%;
+}
+
+section {
+    background-color: #4CD99D;
+    box-sizing: border-box;
+    height: 75vh;
+    padding-left: 15px;
+    margin: 0;
+    width: 85%;
+    float: right;
+}
+
+
+
+footer {
+    background-color: #5C6A98;
+    display: block;
+    height: 5vh;
+    line-height: 5vh;
+    margin: 0;
+
+}
+
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+article img {
+    width: 25%;
+    height: 25%;
+}

@@ -1,0 +1,62 @@
+/* CSS styles created by André de Groot, 4-3-2019. 
+https://www.colourlovers.com/palette/4634320/Avocado_style*/
+
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: Calibri, Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* Even in plaats van een browser CSS reset */
+
+
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.header {
+    height: 150px;
+    background-color: #94BF76;
+    line-height: 150px;
+}
+
+.menu {
+    background-color: #BEE896;
+    box-sizing: border-box;
+    float: left;
+    height: 353px;
+    padding: 10px;
+    width: 20%;
+}
+
+.content {
+    background-color: #fff;
+    height: 353px;
+}
+
+.cartoon {
+    width: 500px;
+    height: 353px;
+}
+
+.footer {
+    background-color: green;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}

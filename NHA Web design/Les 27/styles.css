@@ -1,0 +1,18 @@
+#vetteTekst {
+  font-weight: bold;
+}
+
+body {
+  font-family: "Calibri";
+}
+
+img {
+	float: right;
+  height: 25%;
+  width: 25%;
+}
+
+#rodeTekst {
+  color: red;
+}
+
