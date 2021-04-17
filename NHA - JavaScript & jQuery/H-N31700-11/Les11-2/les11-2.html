@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=description content="NHA Huiswerk Les 11-2">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Huiswerk Les 11-2</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- jQuery Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="les11-2.html"><img src="images/logo.png" alt="NHA Logo" title="NHA Logo" width="200" height="74"></a>
+    </header>
+
+
+    <section class="content">
+        <h1>Huiswerk Les 11-2</h1>
+
+        <p id="dummyParagraaf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non eum aut rerum nihil
+            molestiae. Magni voluptas repudiandae veritatis quaerat doloribus temporibus consectetur! Eveniet dicta
+            fugiat deleniti aliquam in sapiente dolorum.</p>
+
+        <button id="knopAnimatieStarten">Animatie Starten</button>
+        <button id="knopAnimatieHalt">Animatie Halt</button>
+        <button id="knopAnimatieStop">Animatie Stop</button>
+        <button id="knopAnimatieReset">Reset</button>
+
+        <hr>
+        <h2>Uitleg</h2>
+
+        <p>
+            <ul>
+                <li><span class="vetteTekst">.click()</span> - "Description: Bind an event handler to the "click"
+                    JavaScript event, or trigger that event on an element."
+                    <ul>
+                        <li>Gebonden aan eventlisteners die luisterd naar kliks op de knoppen.</li>
+                    </ul>
+                </li>
+                <li><span class="vetteTekst">.stop()</span> - "Description: Stop the currently-running animation on the
+                    matched elements."
+                    <ul>
+                        <li>.stop(): Stopt de animatie en stopt op het huidige frame. (maakt de animatie niet af) </li>
+                        <li>.stop(true, true): Stopt de animatie en gaat direkt naar het laatste frame.</li>
+                    </ul>
+                </li>
+                <li><span class="vetteTekst">.finish()</span> - "Description: Stop the currently-running animation,
+                    remove all queued animations, and
+                    complete all animations for the matched elements."
+                    <ul>
+                        <li>Speelt de nog overgebleven frames in de animatie af en stopt.</li>
+                    </ul>
+                </li>
+                <li><span class="vetteTekst">.dequeue()</span> - "Description: Execute the next function on the queue
+                <li><span class="vetteTekst">.show()</span> - "Description: Display the matched elements."
+                    <ul>
+                        <li>Laat het element weer zien als deze niet meer zichtbaar is na het completeren van de
+                            animatie.</li>
+                    </ul>
+
+                </li>
+
+
+
+            </ul>
+        </p>
+
+
+    </section>
+
+<footer></footer>
+
+    <script src="javascript/script11-2.js"></script>
+    <noscript>Helaas, uw browser ondersteunt geen scripts.</noscript>
+</body>
+
+</html>

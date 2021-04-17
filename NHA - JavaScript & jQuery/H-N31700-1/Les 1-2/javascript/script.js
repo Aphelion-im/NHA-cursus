@@ -1,0 +1,1 @@
+alert("Gegroet bezoeker! Welkom!");

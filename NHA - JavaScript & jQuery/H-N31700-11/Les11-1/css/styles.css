@@ -1,0 +1,74 @@
+body {
+    background-color: #fff;
+    color: #184D8F;
+    font-family: Calibri, Arial, sans-serif;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    /* Even in plaats van een browser CSS reset */
+}
+
+.content {
+    border-top: 2px solid #184D8F;
+    border-bottom: 2px solid #184D8F;
+    font-size: 1em;
+    height: 50%;
+    min-height: 50vh;
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+/* Inpyt[type="checkbox"]] correctie tekst align: 
+https://stackoverflow.com/questions/306252/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers 
+*/
+label {
+    display: block;
+    font-weight: bold;
+    padding-left: 15px;
+    text-indent: -15px;
+    margin: 0 0 15px 0;
+}
+/* Inpyt[type="checkbox"] correctie tekst align: 
+https://stackoverflow.com/questions/306252/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers 
+*/
+#wegtoverenTekst {
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    overflow: hidden;
+}
+
+input:focus {
+    border: 2px solid #184D8F;
+}
+
+hr {
+    background-color: rgba(129, 129, 129, 0.63);
+    height: 3px;
+}
+
+button {
+    margin-bottom: 15px;
+}
+
+#lijst>li {
+    display: table;
+}

@@ -1,0 +1,1 @@
+console.log("https://www.computerhope.com/cgi-bin/systeminfo.cgi geeft aan: Chrome & JavaScript 1.7.");
