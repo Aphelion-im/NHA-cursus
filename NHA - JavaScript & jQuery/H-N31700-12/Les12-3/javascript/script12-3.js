@@ -2,7 +2,8 @@
 
 $(document).ready(function () {
 
-  let weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Amsterdam,nl&units=metric&appid=f1fbdc506365fb9247bd026b1b681c9c';
+  const apiKey = ""; // Insert your Openweathermap.org API key here
+  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=Amsterdam,nl&units=metric&appid=${apiKey}`;
 
   $.ajax({
 

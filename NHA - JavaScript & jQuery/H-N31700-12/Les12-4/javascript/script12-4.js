@@ -2,7 +2,8 @@
 
 $(document).ready(function () {
 
-  let currencyUsUrl = 'https://openexchangerates.org/api/latest.json?app_id=1e26e0dc05514be18b6e9d463ade0177';
+  const apiKey = ""; // Insert your Openexchangerates.org API key here
+  const currencyUsUrl = `https://openexchangerates.org/api/latest.json?app_id=${apiKey}`;
 
 
   $("button").on("click", function () {
